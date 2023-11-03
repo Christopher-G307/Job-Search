@@ -1,0 +1,133 @@
+:root {
+  --primaryColor: #03c988;
+  --secondaryColor: #166052;
+  --fontColor: #1e1e1e;
+  --whiteColor: #fff;
+  --greyColor: #e7e7e7;
+  --darkGreyColor: #8b8888;
+  --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+.details {
+  background-color: var(--whiteColor);
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+.details h3 {
+  font-size: 2rem;
+  color: var(--fontColor);
+  margin-bottom: 1rem;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+
+.job-info a {
+  display: block;
+  margin: 0.5rem;
+  font-size: 1.6rem;
+  color: var(--primaryColor);
+}
+
+.job-info a:hover {
+  text-decoration: underline;
+}
+
+.job-info p {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  color: var(--darkGreyColor);
+}
+
+.details .basic-details {
+  background-color: var(--greyColor);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 1.5rem 0;
+}
+
+.basic-details p {
+  color: var(--darkGreyColor);
+  padding-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.details ul {
+  margin: 1rem 0;
+}
+
+.details ul li {
+  font-size: 1.6rem;
+  color: var(--darkGreyColor);
+  padding: 1rem 0;
+  margin-left: 3rem;
+}
+
+.description {
+  margin-top: 1.5rem;
+}
+
+.description p {
+  color: var(--darkGreyColor);
+  padding: 1rem 0;
+  line-height: 1.8;
+  font-size: 1.6rem;
+}
+
+.details form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.details .save {
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  background-color: var(--greyColor);
+  padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.save:hover {
+  background-color: var(--fontColor);
+}
+
+.save i {
+  color: var(--fontColor);
+  margin-right: 0.5rem;
+}
+
+.save:hover i {
+  color: var(--whiteColor);
+}
+
+.save span {
+  color: var(--darkGreyColor);
+}
+
+.save:hover span {
+  color: var(--whiteColor);
+}

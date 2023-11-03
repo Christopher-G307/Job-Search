@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a55ec7c2f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <div id="menu-btn"><i class="fa-solid fa-bars-staggered"></i></div>
+        <a href="index.html" class="logo"
+          ><i class="fa-solid fa-briefcase"></i>JobPalace.</a
+        >
+
+        <nav class="navbar">
+          <a href="index.html">home</a>
+          <a href="about.html">about us</a>
+          <a href="contact.html">contact</a>
+          <a href="jobs.html">all jobs</a>
+          <a href="login.html">account</a>
+        </nav>
+
+        <a href="login.html" class="btn" style="margin-top: 0">post job</a>
+      </section>
+    </header>
+
+    <div class="account-form-container">
+      <section class="account-form">
+        <form action="" method="post">
+          <h3>create account</h3>
+          <input
+            type="text"
+            class="input"
+            placeholder="enter your username"
+            required
+            name="name"
+            maxlength="20"
+          />
+
+          <input
+            type="email"
+            class="input"
+            placeholder="enter your email"
+            required
+            name="email"
+            maxlength="50"
+          />
+
+          <input
+            type="password"
+            class="input"
+            placeholder="enter your password"
+            required
+            name="pass"
+            maxlength="20"
+          />
+
+          <input
+            type="password"
+            class="input"
+            placeholder="confirm your password"
+            required
+            name="c_pass"
+            maxlength="20"
+          />
+
+          <p>already have ann account? <a href="login.html">login now</a></p>
+          <input type="submit" value="register" name="submit" class="btn" />
+        </form>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <section class="grid">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html"><i class="fa-solid fa-angle-right"></i> home</a>
+          <a href="about.html"
+            ><i class="fa-solid fa-angle-right"></i> about us</a
+          >
+          <a href="contact.html"
+            ><i class="fa-solid fa-angle-right"></i> contact</a
+          >
+          <a href="jobs.html"
+            ><i class="fa-solid fa-angle-right"></i> all jobs</a
+          >
+          <a href="#"><i class="fa-solid fa-angle-right"></i> filter search</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a>
+          <a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+          <a href="#"><i class="fa-brands fa-youtube"></i>youtube</a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"><i class="fa-solid fa-angle-right"></i> account</a>
+          <a href="login.html"><i class="fa-solid fa-angle-right"></i> login</a>
+          <a href="register.html"
+            ><i class="fa-solid fa-angle-right"></i> register</a
+          >
+          <a href="#"><i class="fa-solid fa-angle-right"></i> post job</a>
+          <a href="#"><i class="fa-solid fa-angle-right"></i> dashboard</a>
+        </div>
+      </section>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+:root {
+  --primaryColor: #03c988;
+  --secondaryColor: #166052;
+  --fontColor: #1e1e1e;
+  --whiteColor: #fff;
+  --greyColor: #e7e7e7;
+  --darkGreyColor: #8b8888;
+  --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.account-form-container {
+  background: url("../img/account.png") rgba(0, 0, 0, 0.7) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: color;
+}
+
+.account-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.account-form form {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--whiteColor);
+  text-align: center;
+  width: 50rem;
+}
+
+.account-form form h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--fontColor);
+  text-transform: capitalize;
+}
+
+.account-form form .input {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  padding: 1.4rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: var(--greyColor);
+}
+
+.account-form form p {
+  font-size: 1.6rem;
+  color: var(--darkGreyColor);
+  padding: 1rem 0;
+}
+
+.account-form form p a {
+  color: var(--primaryColor);
+}
+
+.account-form form p a:hover {
+  color: var(--secondaryColor);
+  text-decoration: underline;
+}

@@ -1,0 +1,70 @@
+:root {
+  --primaryColor: #03c988;
+  --secondaryColor: #166052;
+  --fontColor: #1e1e1e;
+  --whiteColor: #fff;
+  --greyColor: #e7e7e7;
+  --darkGreyColor: #8b8888;
+  --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.details {
+  border: var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 0.5rem;
+  background-color: var(--whiteColor);
+  padding: 2rem;
+}
+
+.details .info {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 0 auto;
+  background-color: var(--greyColor);
+  max-width: 30rem;
+  border-radius: 0.5rem;
+}
+
+.details .info img {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.details .info h3 {
+  font-size: 2rem;
+  color: var(--fontColor);
+  padding: 1.5rem 0;
+}
+
+.details .info p {
+  color: var(--darkGreyColor);
+  font-size: 1.6rem;
+}
+
+.details .description {
+  margin-top: 2rem;
+}
+
+.details .description h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: var(--fontColor);
+  text-transform: capitalize;
+}
+
+.details .description p {
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+  line-height: 1.8;
+  color: var(--darkGreyColor);
+}
+
+.details ul li {
+  font-size: 1.6rem;
+  color: var(--darkGreyColor);
+  margin-left: 3rem;
+  padding-top: 1.5rem;
+}

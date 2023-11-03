@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a55ec7c2f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/conctact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <div id="menu-btn"><i class="fa-solid fa-bars-staggered"></i></div>
+        <a href="index.html" class="logo"
+          ><i class="fa-solid fa-briefcase"></i>JobPalace.</a
+        >
+
+        <nav class="navbar">
+          <a href="index.html">home</a>
+          <a href="about.html">about us</a>
+          <a href="contact.html">contact</a>
+          <a href="jobs.html">all jobs</a>
+          <a href="login.html">account</a>
+        </nav>
+
+        <a href="login.html" class="btn" style="margin-top: 0">post job</a>
+      </section>
+    </header>
+
+    <div class="heading-title">contact us</div>
+
+    <section class="contact">
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-phone"></i>
+          <a href="011 668 0285">011 668 0285</a>
+          <a href="011 668 0282">011 668 0283</a>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="#">CHaven@CodeH.co.za</a>
+          <a href="#">CodeH@CodeH.co.za</a>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-location-dot"></i>
+          <a href="#">unit 5, Wild Fig office park, Honeydew </a>
+          <a href="#">unit 5, office park, benoni</a>
+        </div>
+      </div>
+
+      <form action="" method="post">
+        <h3>drop a message</h3>
+        <div class="flex">
+          <div class="box">
+            <p>name <span>*</span></p>
+            <input
+              type="text"
+              placeholder="enter your name"
+              class="input"
+              name="name"
+              required
+              maxlength="20"
+            />
+          </div>
+
+          <div class="box">
+            <p>email <span>*</span></p>
+            <input
+              type="text"
+              placeholder="enter your email"
+              class="input"
+              name="email"
+              required
+              maxlength="50"
+            />
+          </div>
+
+          <div class="box">
+            <p>number <span>*</span></p>
+            <input
+              type="number"
+              placeholder="enter your number"
+              class="input"
+              name="number"
+              required
+              min="0"
+              max="9999999999"
+              maxlength="20"
+            />
+          </div>
+
+          <div class="box">
+            <p>role <span>*</span></p>
+            <select name="role" required class="input">
+              <option value="employee">job seeker (employee)</option>
+              <option value="employer">job provider (employer)</option>
+            </select>
+          </div>
+        </div>
+        <p>message <span>*</span></p>
+        <textarea
+          name="message"
+          class="input"
+          placeholder="enter your message"
+          required
+          maxlength="1000"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" name="send" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <section class="grid">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html"><i class="fa-solid fa-angle-right"></i> home</a>
+          <a href="about.html"
+            ><i class="fa-solid fa-angle-right"></i> about us</a
+          >
+          <a href="contact.html"
+            ><i class="fa-solid fa-angle-right"></i> contact</a
+          >
+          <a href="jobs.html"
+            ><i class="fa-solid fa-angle-right"></i> all jobs</a
+          >
+          <a href="#"><i class="fa-solid fa-angle-right"></i> filter search</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a>
+          <a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+          <a href="#"><i class="fa-brands fa-youtube"></i>youtube</a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"><i class="fa-solid fa-angle-right"></i> account</a>
+          <a href="login.html"><i class="fa-solid fa-angle-right"></i> login</a>
+          <a href="register.html"
+            ><i class="fa-solid fa-angle-right"></i> register</a
+          >
+          <a href="#"><i class="fa-solid fa-angle-right"></i> post job</a>
+          <a href="#"><i class="fa-solid fa-angle-right"></i> dashboard</a>
+        </div>
+      </section>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
